@@ -1,0 +1,7 @@
+body{
+		background: url('../img/pc.jpg') #000;
+				height: 700px; 
+	background-repeat: no-repeat;
+			background-size:cover;
+			background-attachment:fixed; ;
+}

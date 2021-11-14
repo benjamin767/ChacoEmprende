@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Categorias</title>
+
+	<link rel="stylesheet" href="../../static/Home/css/cartas.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+
+	<script src="../../static/Home/js/jquery-3.2.1.js"></script>
+	<script src="../../static/Home/js/script.js"></script>
+</head>
+<body>
+	
+			<br><img class = "logo" src="../../static/Home/img/chacoemprende.png"></br>
+			<a href="{% url 'Registro' %}">REGISTRAR PRODUCTO O SERVICIO</a>
+			<br>
+			<br>
+			<a href="{% url 'Usuario' %}">REGISTRAR USUARIO</a>
+	<div class="wrap">
+		<h1 style="color: black">PRODUCTOS Y COMERCIOS PUBLICADOS</h1>
+		<div class="store-wrapper">
+			<div class="category_list">
+				<a href="#" class="category_item" category="all">Todo</a>
+				<a href="#" class="category_item" category="artesania">Artesanías</a>
+				<a href="#" class="category_item" category="construccion">Construccion</a>
+				<a href="#" class="category_item" category="electricidad">Electricidad</a>
+				<a href="#" class="category_item" category="farmacia">Farmacias</a>
+				<a href="#" class="category_item" category="tienda">Tiendas</a>
+				<a href="#" class="category_item" category="comida">Comidas</a>
+				<a href="#" class="category_item" category="educación">Educación</a>
+			</div>
+			<section class="products-list">
+				<div class="product-item" category="construccion">
+					<img src="../../static/Home/img/construccion.jpg" alt="" >
+					<a href="#">Albañilería "Armando Paredes"</a>
+				</div>
+				<div class="product-item" category="educación">
+					<img src="../../static/Home/img/construccion.jpg" alt="" >
+					<a href="#"> Profesora lenguaje de señas "Estaba hablando muteada"</a>
+				</div>
+				<div class="product-item" category="tienda">
+					<img src="../../static/Home/img/kiosco.jpg" alt="" >
+					<a href="#">MaxiKiosco "El Info"</a>
+				</div>
+				<div class="product-item" category="farmacia">
+					<img src="../../static/Home/img/farmacia.jpg" alt="" >
+					<a href="#">Farmacia "Se Nos Va"</a>
+				</div>
+				<div class="product-item" category="electricidad">
+					<img src="../../static/Home/img/electricidad.jpg" alt="" >
+					<a href="#">Electricista "Usain Bolt"</a>
+				</div>
+				<div class="product-item" category="artesania">
+					<img src="../../static/Home/img/cactus.jpg" alt="" >
+					<a href="#">"Cactus de Ensueño"</a>
+				</div>
+				<div class="product-item" category="artesania">
+					<img src="../../static/Home/img/artesania2.jpg" alt="" >
+					<a href="#">"Cultura y artesanías"</a>
+				</div>
+				<div class="product-item" category="tienda">
+					<img src="../../static/Home/img/alacran.jpg" alt="" >
+					<a href="#">MaxiKiosco y Memes "El Alacrán"</a>
+				</div>
+				<div class="product-item" category="comida">
+					<img src="../../static/Home/img/helado.jpg" alt="" >
+					<a href="#">Helados Artesanales "Dyanmgo"</a>
+				</div>
+			</section>
+		</div>
+	</div>
+</body>
+</html>
